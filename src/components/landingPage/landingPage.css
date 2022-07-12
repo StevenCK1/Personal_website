@@ -1,5 +1,6 @@
 .landing-img {
   max-height: 100vh;
+  border-radius: 25px;
 }
 .land-text-container {
   text-align: center;
@@ -8,4 +9,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.landing-container {
+  height: 100vh;
 }

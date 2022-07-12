@@ -4,3 +4,15 @@
 * {
   font-family: "Roboto Condensed", sans-serif;
 }
+
+.contact-me-page-container {
+  height: 100vh;
+}
+
+.portfolio-page-container {
+  height: 100vh;
+}
+
+.about-me-page-container {
+  height: 100vh;
+}

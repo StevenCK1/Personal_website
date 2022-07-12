@@ -7,6 +7,9 @@ import {
 } from "@ant-design/icons";
 import React from "react";
 import LandingPage from "../landingPage/landingPage";
+import AboutMe from "../aboutMe/aboutMe.js";
+import PortfolioPage from "../portfolioPage/portfolioPage.js";
+import ContactMe from "../contactMe/contactMe.js";
 
 const App = () => (
   <React.Fragment>
@@ -31,6 +34,9 @@ const App = () => (
     </div>
     {/* End of navbar */}
     <LandingPage />
+    <AboutMe />
+    <PortfolioPage />
+    <ContactMe />
   </React.Fragment>
 );
 
