@@ -1,5 +1,5 @@
 .landing-img {
-  max-height: 100vh;
+  max-height: 94vh;
   border-radius: 25px;
 }
 .land-text-container {
@@ -13,4 +13,6 @@
 
 .landing-container {
   height: 100vh;
+  position: relative;
+  top: 4rem;
 }

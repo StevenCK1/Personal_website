@@ -5,7 +5,7 @@ import { Col, Row } from "antd";
 function LandingPage() {
   return (
     <React.Fragment>
-      <div className="landing-container">
+      <div className="landing-container" id="landing-container">
         <Row>
           <Col sm={12}>
             <article className="land-text-container">

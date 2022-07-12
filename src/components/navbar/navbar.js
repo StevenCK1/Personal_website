@@ -6,7 +6,7 @@ function Navbar() {
     <React.Fragment>
       <nav>
         <div class="logo">
-          <img src="SC" alt="Logo Image" />
+          <p>S Cheung</p>
         </div>
         <div class="hamburger">
           <div class="line1"></div>
@@ -15,16 +15,16 @@ function Navbar() {
         </div>
         <ul class="nav-links">
           <li>
-            <a href="#">Home</a>
+            <a href="#landing-container">Home</a>
           </li>
           <li>
-            <a href="#">About me</a>
+            <a href="#about-me-page-container">About me</a>
           </li>
           <li>
-            <a href="#">Portfolio</a>
+            <a href="#portfolio-page-container">Portfolio</a>
           </li>
           <li>
-            <a href="#">Contact Me</a>
+            <a href="#contact-me-page-container">Contact Me</a>
           </li>
         </ul>
       </nav>
