@@ -1,3 +1,5 @@
+import "./contactMe.css";
+
 function ContactMe() {
   return (
     <div className="contact-me-page-container">

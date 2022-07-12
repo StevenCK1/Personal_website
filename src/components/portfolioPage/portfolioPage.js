@@ -1,3 +1,5 @@
+import "./portfolioPage.css";
+
 function PortfolioPage() {
   return (
     <div className="portfolio-page-container">
