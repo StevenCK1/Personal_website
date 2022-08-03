@@ -1,11 +1,22 @@
 import "./contactMe.css";
+import { MailOutlined } from "@ant-design/icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { solid, brands } from "@fortawesome/fontawesome-svg-core/import.macro"; // <-- import styles to be used
 
 function ContactMe() {
   return (
     <div className="contact-me-page-container" id="contact-me-page-container">
-      <div className="contact-me-form-container"></div>
-      <h1>Contact Me</h1>
-      <p>Let me know how I can help!</p>
+      <div className="contact-me-icon-links">
+        <FontAwesomeIcon icon={solid("user-secret")} />
+        <FontAwesomeIcon icon={brands("twitter")} />
+      </div>
+      <div className="contact-me-title-container">
+        <MailOutlined style={{ fontSize: "25px" }} />
+        <span>Contact Me</span>
+
+        <p>Let me know how I can help!</p>
+      </div>
+
       <form
         name="contact-me"
         method="POST"
