@@ -1,5 +1,6 @@
 import "./navbar.css";
 import React, { useState } from "react";
+import logo_transparent from "../../images/logo_transparent.png";
 
 function Navbar() {
   const [show, setShow] = useState(false);
@@ -16,7 +17,7 @@ function Navbar() {
     <React.Fragment>
       <nav>
         <div class="logo">
-          <p>S Cheung</p>
+          <img src={logo_transparent} alt="Logo" />
         </div>
         <div class="hamburger" onClick={handleClick}>
           <div class="line1"></div>
