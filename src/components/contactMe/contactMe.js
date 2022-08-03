@@ -10,6 +10,7 @@ function ContactMe() {
         data-netlify="true"
         onSubmit="submit"
       >
+        <input type="hidden" name="form-name" value="contact" />
         <div>
           <label>
             First Name: <input type="text" name="first-name" />
@@ -25,7 +26,6 @@ function ContactMe() {
             Your Email: <input type="email" name="email" />
           </label>
         </div>
-
         <div>
           <label>
             Message: <textarea name="message"></textarea>
