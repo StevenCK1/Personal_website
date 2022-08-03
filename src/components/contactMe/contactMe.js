@@ -3,16 +3,21 @@ import "./contactMe.css";
 function ContactMe() {
   return (
     <div className="contact-me-page-container" id="contact-me-page-container">
-      <h1>This is the contact-me section</h1>
-      <form name="contact" method="POST" data-netlify="true">
+      <p>This is the contact-me section</p>
+      <form
+        name="contact-me"
+        method="POST"
+        data-netlify="true"
+        onSubmit="submit"
+      >
         <div>
           <label>
-            First Name: <input type="text" name="name" />
+            First Name: <input type="text" name="first-name" />
           </label>
         </div>
         <div>
           <label>
-            Last Name: <input type="text" name="name" />
+            Last Name: <input type="text" name="last-name" />
           </label>
         </div>
         <div>
