@@ -89,16 +89,28 @@ button[type="submit"]:hover {
   height: 2rem;
   margin: 5px 5px 5px 5px;
   padding-left: 15px;
+  transition: all 0.2s ease-in-out;
+}
+.twitter-icon:hover {
+  transform: scale(1.15);
 }
 
 .linkedin-icon {
   color: #0072b1;
   height: 2rem;
   margin: 5px 5px 5px 5px;
+  transition: all 0.2s ease-in-out;
 }
-
+.linkedin-icon:hover {
+  transform: scale(1.15);
+}
 .github-icon {
   color: black;
   height: 2rem;
   margin: 5px 5px 5px 5px;
+  transition: all 0.2s ease-in-out;
+}
+
+.github-icon:hover {
+  transform: scale(1.15);
 }
