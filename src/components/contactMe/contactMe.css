@@ -64,6 +64,11 @@ button[type="submit"]:hover {
   margin: 0.2rem;
 }
 
+.contact-me-title {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
 .contact-me-social {
   width: 95%;
   height: 30%;

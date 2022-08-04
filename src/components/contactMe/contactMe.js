@@ -1,5 +1,4 @@
 import "./contactMe.css";
-import { MailOutlined } from "@ant-design/icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { brands } from "@fortawesome/fontawesome-svg-core/import.macro";
 import { Col, Row } from "antd";
@@ -14,10 +13,11 @@ function ContactMe() {
             id="contact-me-page-container"
           >
             <div className="contact-me-title-container">
-              <MailOutlined style={{ fontSize: "25px" }} />
-              <span>Contact Me</span>
-
-              <p>Let me know how I can help!</p>
+              <h1 className="contact-me-title">Got a problem to solve?</h1>
+              <p>
+                Get your space suit ready and tell me your ideas to develop your
+                dream application.
+              </p>
             </div>
 
             <form
