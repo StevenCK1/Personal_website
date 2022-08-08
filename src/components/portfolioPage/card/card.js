@@ -1,17 +1,20 @@
 import { Card } from "antd";
 import React from "react";
+import "./card.css";
 
 const { Meta } = Card;
 
-function ProjectCard({ src, alt, title, description }) {
+function ProjectCard({ src, alt, title, description, href }) {
   return (
-    <Card
-      hoverable
-      style={{ width: 280, borderRadius: "15px" }}
-      cover={<img alt={alt} src={src} />}
-    >
-      <Meta title={title} description={description} />
-    </Card>
+    <a href={href}>
+      <Card
+        hoverable
+        className="custom-card"
+        cover={<img alt={alt} src={src} />}
+      >
+        <Meta title={title} description={description} />
+      </Card>
+    </a>
   );
 }
 
