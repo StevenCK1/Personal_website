@@ -19,10 +19,12 @@ About Me
 
 Portfolio
 
-- carousel that can animate? - Will need picture of project, short description and tech used
+- Card by antd added and made responsive with Row and Col
 
 Contact me
 
-- Completed
+- Used netlify form
+- Added component for social media links
+- Contact page responsive and social links moves under contact form for smaller screens
 
 Footer?
