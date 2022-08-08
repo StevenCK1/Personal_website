@@ -25,4 +25,12 @@ export const items = [
     description:
       "Built a shopping cart using only vanilla JavaScript, HTML and CSS",
   },
+  {
+    href: "https://github.com/StevenCK1/Shopping_cart",
+    src: Shopping_cart,
+    alt: "Shopping Cart",
+    title: "Shopping Cart",
+    description:
+      "Built a shopping cart using only vanilla JavaScript, HTML and CSS",
+  },
 ];
