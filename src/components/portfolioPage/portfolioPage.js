@@ -12,6 +12,7 @@ function PortfolioPage() {
           return (
             <Col xs={24} xl={12}>
               <ProjectCard
+                key={item.title}
                 src={item.src}
                 alt={item.alt}
                 title={item.title}

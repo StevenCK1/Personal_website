@@ -19,12 +19,13 @@ About Me
 
 Portfolio
 
-- Card by antd added and made responsive with Row and Col
+- Card by antd added and made responsive with Row and Col ✅
+- Consider pagination if there is more than 4 projects to show
 
 Contact me
 
-- Used netlify form
-- Added component for social media links
-- Contact page responsive and social links moves under contact form for smaller screens
+- Used netlify form ✅
+- Added component for social media links ✅
+- Contact page responsive and social links moves under contact form for smaller screens ✅
 
 Footer?
