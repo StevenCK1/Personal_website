@@ -4,7 +4,7 @@
 .contact-me-form-container {
   border-radius: 15px;
   padding: 20px;
-  width: 95%;
+  width: 90%;
   min-width: 300px;
   margin: auto;
   background-color: #f9f1f0;
@@ -70,7 +70,7 @@ button[type="submit"]:hover {
 }
 
 .contact-me-social {
-  width: 95%;
+  width: 90%;
   height: 30%;
   min-height: 182px;
   background-color: #f9f1f0;

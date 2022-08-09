@@ -1,3 +1,5 @@
+import "./techCard.css";
+
 function TechCard({ src, alt, title, key }) {
   return (
     <div className="tech-card-container">

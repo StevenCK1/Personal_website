@@ -4,4 +4,25 @@
 
 .about-me-page-container img {
   height: 80px;
+  margin: 20px;
+}
+
+img[alt~="Cypress"] {
+  object-fit: contain;
+  width: 200px;
+}
+
+@media (max-width: 480px) {
+  .about-me-page-container {
+    height: auto;
+  }
+
+  .about-me-page-container img {
+    height: 55px;
+  }
+}
+
+.tech-skills {
+  text-align: center;
+  margin: 2rem;
 }

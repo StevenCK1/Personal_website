@@ -40,8 +40,8 @@ const techSkills = [
   { src: jira, title: "Jira" },
   { src: pwa, title: "PWA" },
   { src: typescript, title: "TypeScript" },
-  { src: cypress, title: "Cypress" },
   { src: figma, title: "Figma" },
+  { src: cypress, title: "Cypress" },
 ];
 
 function AboutMe() {
@@ -50,10 +50,11 @@ function AboutMe() {
       <h1>A little bit about me</h1>
       <article className="little-about-me"></article>
       <article className="tech-skills">
+        Tech I have worked with
         <Row gutter={[24, 24]}>
           {techSkills.map((item) => {
             return (
-              <Col xs={6} xl={2}>
+              <Col xs={8} xl={3}>
                 <TechCard
                   key={item}
                   src={item.src}
