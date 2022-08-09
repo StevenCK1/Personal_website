@@ -1,7 +1,10 @@
 .about-me-page-container {
   height: 100vh;
+  text-align: center;
 }
-
+.about-me-page-container h1 {
+  font-size: 30px;
+}
 .about-me-page-container img {
   height: 80px;
   margin: 20px;
@@ -24,5 +27,11 @@ img[alt~="Cypress"] {
 
 .tech-skills {
   text-align: center;
+  margin: 2rem;
+}
+
+.tech-skills h2 {
+  text-align: center;
+  font-size: 30px;
   margin: 2rem;
 }

@@ -48,9 +48,18 @@ function AboutMe() {
   return (
     <div className="about-me-page-container" id="about-me-page-container">
       <h1>A little bit about me</h1>
-      <article className="little-about-me"></article>
+      <article className="little-about-me">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eros
+          nisl, dignissim eget bibendum vel, posuere eu ipsum. Quisque in mattis
+          mi. Pellentesque consectetur sapien eget leo ullamcorper, ut
+          sollicitudin dolor condimentum. Nulla sagittis leo id leo faucibus
+          tristique. Praesent in sodales nisi, ut hendrerit neque. Nam
+          condimentum vestibulum dictum.
+        </p>
+      </article>
       <article className="tech-skills">
-        Tech I have worked with
+        <h2>Tech I have worked with</h2>
         <Row gutter={[24, 24]}>
           {techSkills.map((item) => {
             return (
