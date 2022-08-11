@@ -21,6 +21,7 @@ Portfolio
 
 - Card by antd added and made responsive with Row and Col ✅
 - to update card to add 2 links (maybe 3) for front end, back end and deployed app
+- consider section for tech used
 - Consider pagination if there is more than 4 projects to show
 
 Contact me
