@@ -4,11 +4,22 @@
 .custom-card img {
   border-radius: 15px 15px 0 0;
 }
+
+img[alt~="Reconnect-App"] {
+  height: 440px;
+  width: auto;
+  margin: auto;
+}
 @media (max-width: 480px) {
   .custom-card {
     width: 375px;
     height: auto;
     border-radius: 15px;
+  }
+
+  img[alt~="Reconnect-App"] {
+    height: 500px;
+    width: auto;
   }
 }
 
@@ -16,5 +27,10 @@
   .custom-card {
     width: 550px;
     height: auto;
+  }
+
+  img[alt~="Reconnect-App"] {
+    height: 500px;
+    width: auto;
   }
 }
