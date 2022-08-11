@@ -5,6 +5,7 @@ import AboutMe from "../aboutMe/aboutMe.js";
 import PortfolioPage from "../portfolioPage/portfolioPage.js";
 import ContactMe from "../contactMe/contactMe.js";
 import Navbar from "../navbar/navbar";
+import Footer from "../footer/footer.js";
 
 const App = () => (
   <React.Fragment>
@@ -13,6 +14,7 @@ const App = () => (
     <AboutMe />
     <PortfolioPage />
     <ContactMe />
+    <Footer />
   </React.Fragment>
 );
 
