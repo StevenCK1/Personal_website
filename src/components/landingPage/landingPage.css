@@ -1,5 +1,6 @@
 .hover1-container {
   width: 10vw;
+  min-width: 150px;
 }
 
 .land-text-hover1 {
@@ -72,8 +73,15 @@
   );
 }
 
+@media (max-width: 480px) {
+  .land-text-hover1 {
+    left: 0;
+  }
+}
+
 .hover2-container {
   width: 25vw;
+  min-width: 250px;
 }
 
 .land-text-hover2 {
@@ -146,6 +154,7 @@
 
 .hover3-container {
   width: 20vw;
+  min-width: 200px;
 }
 
 .land-text-hover3 {
@@ -217,8 +226,14 @@
   );
 }
 
+@media (max-width: 480px) {
+  .land-text-hover3 {
+    left: 0;
+  }
+}
 .hover4-container {
   width: 25vw;
+  min-width: 200px;
 }
 
 .land-text-hover4 {
@@ -290,6 +305,12 @@
     0% 100%
   );
 }
+
+@media (max-width: 480px) {
+  .land-text-hover4 {
+    left: 95%;
+  }
+}
 /* End of hover effects */
 
 .ant-col {
@@ -303,4 +324,7 @@
   width: 50vw;
   position: relative;
   top: 4rem;
+}
+
+@media (max-width: 480px) {
 }
