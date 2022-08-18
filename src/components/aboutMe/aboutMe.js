@@ -31,7 +31,7 @@ function AboutMe() {
             return (
               <Col xs={8} xl={3}>
                 <TechCard
-                  key={item}
+                  key={item.title}
                   src={item.src}
                   alt={item.title}
                   title={item.title}

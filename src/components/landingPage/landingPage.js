@@ -9,7 +9,7 @@ function LandingPage() {
         <Row>
           <Col sm={12}>
             <article className="land-text-container">
-              <h1> Hi, I'm Steven Cheung</h1>
+              <p> Hi, I'm Steven Cheung</p>
               <p>London based, full-stack developer</p>
             </article>
           </Col>

@@ -4,7 +4,7 @@ import "./card.css";
 
 const { Meta } = Card;
 
-function ProjectCard({ src, alt, title, description, href }) {
+function ProjectCard({ src, alt, title, description, href, key }) {
   return (
     <a href={href}>
       <Card
@@ -12,7 +12,7 @@ function ProjectCard({ src, alt, title, description, href }) {
         className="custom-card"
         cover={<img alt={alt} src={src} />}
       >
-        <Meta title={title} description={description} />
+        <Meta key={key} title={title} description={description} />
       </Card>
     </a>
   );
