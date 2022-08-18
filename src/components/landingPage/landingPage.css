@@ -1,23 +1,29 @@
-.landing-img {
-  max-height: 94vh;
-  border-radius: 25px;
+.hover1-container {
+  width: 10vw;
 }
-.land-text-container {
+
+.land-text-hover1 {
   text-align: center;
+  position: relative;
+  top: 5vh;
+  left: 25vw;
+  font-size: 30px;
+  font-weight: bold;
 
   /* hover effects */
 
-  --b: 4px; /* border length*/
+  --b: 2px; /* border length*/
   --c: 20px; /* the cube perspective */
 
   --g: calc(var(--c) * 0.707); /* 0.707 = cos(45deg) = sin(45deg) */
 
-  position: relative;
+  /* position: relative; */
+  /* width: 300px; */
 
   padding: 8px;
   transition: 0.5s;
   border: solid transparent;
-  color: rgb(82, 149, 250);
+  color: rgb(161, 138, 224);
   border-width: var(--b) var(--b) calc(var(--c) + var(--b))
     calc(var(--c) + var(--b));
   background: linear-gradient(
@@ -53,7 +59,7 @@
   );
 }
 
-.land-text-container:hover {
+.land-text-hover1:hover {
   transform: translate(0, 0);
   clip-path: polygon(
     0% var(--c),
@@ -66,6 +72,224 @@
   );
 }
 
+.hover2-container {
+  width: 25vw;
+}
+
+.land-text-hover2 {
+  text-align: center;
+  position: relative;
+  top: 0;
+  left: 35vw;
+  font-size: 30px;
+  font-weight: bold;
+
+  --b: 2px; /* border length*/
+  --c: 20px; /* the cube perspective */
+
+  --g: calc(var(--c) * 0.707); /* 0.707 = cos(45deg) = sin(45deg) */
+
+  /* position: relative; */
+  /* width: 300px; */
+
+  padding: 8px;
+  transition: 0.5s;
+  border: solid transparent;
+  color: rgb(161, 138, 224);
+  border-width: var(--b) var(--b) calc(var(--c) + var(--b))
+    calc(var(--c) + var(--b));
+  background: linear-gradient(
+        -45deg,
+        transparent var(--g),
+        rgba(255, 255, 255, 0.6) 0
+      )
+      left / var(--c) 100%,
+    linear-gradient(135deg, transparent var(--g), rgba(255, 255, 255, 0.3) 0)
+      bottom / 100% var(--c),
+    conic-gradient(
+      from -90deg at top var(--b) right var(--b),
+      currentColor 270deg,
+      transparent 0
+    ),
+    conic-gradient(
+      from 90deg at bottom calc(var(--c) + var(--b)) left
+        calc(var(--c) + var(--b)),
+      currentColor 270deg,
+      transparent 0
+    );
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  transform: translate(calc(var(--c) / -1), calc(var(--c) / 1));
+  clip-path: polygon(
+    var(--c) 0%,
+    var(--c) 0%,
+    100% 0%,
+    100% calc(100% - var(--c)),
+    100% calc(100% - var(--c)),
+    var(--c) calc(100% - var(--c)),
+    var(--c) calc(100% - var(--c))
+  );
+}
+
+.land-text-hover2:hover {
+  transform: translate(0, 0);
+  clip-path: polygon(
+    0% var(--c),
+    var(--c) 0%,
+    100% 0%,
+    100% calc(100% - var(--c)),
+    calc(100% - var(--c)) 100%,
+    0% 100%,
+    0% 100%
+  );
+}
+
+.hover3-container {
+  width: 20vw;
+}
+
+.land-text-hover3 {
+  text-align: center;
+  position: relative;
+  top: -2vh;
+  left: 25vw;
+  font-size: 30px;
+  font-weight: bold;
+  /* hover effects */
+
+  --b: 2px; /* border length*/
+  --c: 20px; /* the cube perspective */
+
+  --g: calc(var(--c) * 0.707); /* 0.707 = cos(45deg) = sin(45deg) */
+
+  /* position: relative; */
+  /* width: 300px; */
+
+  padding: 8px;
+  transition: 0.5s;
+  border: solid transparent;
+  color: rgb(161, 138, 224);
+  border-width: var(--b) var(--b) calc(var(--c) + var(--b))
+    calc(var(--c) + var(--b));
+  background: linear-gradient(
+        -45deg,
+        transparent var(--g),
+        rgba(255, 255, 255, 0.6) 0
+      )
+      left / var(--c) 100%,
+    linear-gradient(135deg, transparent var(--g), rgba(255, 255, 255, 0.3) 0)
+      bottom / 100% var(--c),
+    conic-gradient(
+      from -90deg at top var(--b) right var(--b),
+      currentColor 270deg,
+      transparent 0
+    ),
+    conic-gradient(
+      from 90deg at bottom calc(var(--c) + var(--b)) left
+        calc(var(--c) + var(--b)),
+      currentColor 270deg,
+      transparent 0
+    );
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  transform: translate(calc(var(--c) / -1), calc(var(--c) / 1));
+  clip-path: polygon(
+    var(--c) 0%,
+    var(--c) 0%,
+    100% 0%,
+    100% calc(100% - var(--c)),
+    100% calc(100% - var(--c)),
+    var(--c) calc(100% - var(--c)),
+    var(--c) calc(100% - var(--c))
+  );
+}
+
+.land-text-hover3:hover {
+  transform: translate(0, 0);
+  clip-path: polygon(
+    0% var(--c),
+    var(--c) 0%,
+    100% 0%,
+    100% calc(100% - var(--c)),
+    calc(100% - var(--c)) 100%,
+    0% 100%,
+    0% 100%
+  );
+}
+
+.hover4-container {
+  width: 25vw;
+}
+
+.land-text-hover4 {
+  text-align: center;
+  position: relative;
+  top: -10vh;
+  left: 45vw;
+  font-size: 30px;
+  font-weight: bold;
+
+  /* hover effects */
+
+  --b: 2px; /* border length*/
+  --c: 20px; /* the cube perspective */
+
+  --g: calc(var(--c) * 0.707); /* 0.707 = cos(45deg) = sin(45deg) */
+
+  /* position: relative; */
+  /* width: 300px; */
+
+  padding: 8px;
+  transition: 0.5s;
+  border: solid transparent;
+  color: rgb(161, 138, 224);
+  border-width: var(--b) var(--b) calc(var(--c) + var(--b))
+    calc(var(--c) + var(--b));
+  background: linear-gradient(
+        -45deg,
+        transparent var(--g),
+        rgba(255, 255, 255, 0.6) 0
+      )
+      left / var(--c) 100%,
+    linear-gradient(135deg, transparent var(--g), rgba(255, 255, 255, 0.3) 0)
+      bottom / 100% var(--c),
+    conic-gradient(
+      from -90deg at top var(--b) right var(--b),
+      currentColor 270deg,
+      transparent 0
+    ),
+    conic-gradient(
+      from 90deg at bottom calc(var(--c) + var(--b)) left
+        calc(var(--c) + var(--b)),
+      currentColor 270deg,
+      transparent 0
+    );
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  transform: translate(calc(var(--c) / -1), calc(var(--c) / 1));
+  clip-path: polygon(
+    var(--c) 0%,
+    var(--c) 0%,
+    100% 0%,
+    100% calc(100% - var(--c)),
+    100% calc(100% - var(--c)),
+    var(--c) calc(100% - var(--c)),
+    var(--c) calc(100% - var(--c))
+  );
+}
+
+.land-text-hover4:hover {
+  transform: translate(0, 0);
+  clip-path: polygon(
+    0% var(--c),
+    var(--c) 0%,
+    100% 0%,
+    100% calc(100% - var(--c)),
+    calc(100% - var(--c)) 100%,
+    0% 100%,
+    0% 100%
+  );
+}
 /* End of hover effects */
 
 .ant-col {
@@ -76,7 +300,7 @@
 
 .landing-container {
   height: 100vh;
+  width: 50vw;
   position: relative;
   top: 4rem;
-  position: relative;
 }
