@@ -1,6 +1,5 @@
 import "./landingPage.css";
 import React from "react";
-import { Col, Row } from "antd";
 
 function LandingPage() {
   return (
