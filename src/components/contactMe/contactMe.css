@@ -56,7 +56,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-  background-color: #33afd1c7;
+  background-color: rgb(161, 138, 224);
 }
 
 .contact-me-title-container span {
