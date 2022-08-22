@@ -1,7 +1,6 @@
 {
   "name": "personal_website",
   "version": "0.1.0",
-  "homepage": "https://StevenCK1.github.io/Personal_website",
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
@@ -25,8 +24,6 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "predeploy": "npm run build",
-    "deploy": "Personal_website -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
