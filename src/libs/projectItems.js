@@ -27,17 +27,9 @@ export const items = [
     description:
       "Built a shopping cart using only vanilla JavaScript, HTML and CSS",
   },
-  {
-    href: "https://github.com/StevenCK1/Shopping_cart",
-    src: Shopping_cart,
-    alt: "Shopping Cart",
-    title: "Shopping Cart",
-    description:
-      "Built a shopping cart using only vanilla JavaScript, HTML and CSS",
-  },
 ];
 // backend of backpack
 // https://github.com/SchoolOfCode/w9_backend-project-team-js
 
 // backend of reconnect
-// https://github.com/SchoolOfCode/final-project_back-end-surch 
+// https://github.com/SchoolOfCode/final-project_back-end-surch
