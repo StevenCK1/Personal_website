@@ -6,16 +6,14 @@
 
 Landing page
 
-- add animation to the short text description
-- find picture to display instead of dark vader
-- or maybe try star wars pun
+- add animation to the short text description ✅
 
 About Me
 
 - Sections:
 
-1. Skills & proficiency?(bar with solid colours)
-2. Experience
+1. About me paragraph ✅
+2. tech used ✅
 
 Portfolio
 
