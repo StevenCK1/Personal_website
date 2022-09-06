@@ -1,4 +1,8 @@
-.contact-me-page-container {
+.contact-me-page-container h1 {
+  font-size: 30px;
+  text-align: center;
+  margin: 2vw;
+  text-decoration: underline;
 }
 
 .contact-me-form-container {

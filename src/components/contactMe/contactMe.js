@@ -6,6 +6,8 @@ import { Col, Row } from "antd";
 function ContactMe() {
   return (
     <div className="contact-me-page-container" id="contact-me-page-container">
+      <h1>Contact me</h1>
+
       <Row>
         <Col flex={4}>
           <div
@@ -13,7 +15,7 @@ function ContactMe() {
             id="contact-me-page-container"
           >
             <div className="contact-me-title-container">
-              <h1 className="contact-me-title">Got a problem to solve?</h1>
+              <h2 className="contact-me-title">Got a problem to solve?</h2>
               <p>
                 Get your space suit ready and tell me your ideas to develop your
                 dream application.
