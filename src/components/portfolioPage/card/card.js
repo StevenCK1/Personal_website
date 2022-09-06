@@ -13,6 +13,7 @@ function ProjectCard({
   key,
   hrefFront,
   hrefApp,
+  techStack,
 }) {
   return (
     <Card
@@ -32,6 +33,7 @@ function ProjectCard({
       ]}
     >
       <Meta key={key} title={title} description={description} />
+      <br /> {techStack}
     </Card>
   );
 }

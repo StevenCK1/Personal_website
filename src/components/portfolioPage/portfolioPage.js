@@ -20,6 +20,9 @@ function PortfolioPage() {
                   title={item.title}
                   description={item.description}
                   hrefFront={item.hrefFront}
+                  hrefBack={item.hrefBack}
+                  hrefApp={item.hrefApp}
+                  techStack={item.techStack}
                 />
               </Col>
             );
