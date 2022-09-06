@@ -8,3 +8,13 @@
   margin: 2rem;
   text-decoration: underline;
 }
+
+.ant-btn-primary {
+  background-color: rgb(161, 138, 224);
+  border-color: rgb(161, 138, 224);
+}
+
+.ant-btn-primary:hover {
+  background-color: rgb(120, 103, 167);
+  border-color: rgb(120, 103, 167);
+}

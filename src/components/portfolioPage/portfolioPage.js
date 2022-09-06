@@ -9,7 +9,7 @@ function PortfolioPage() {
     <div className="portfolio-page-container" id="portfolio-page-container">
       <EaseInBottom>
         <h1>Here is a selection of the projects I have worked on</h1>
-        <Row gutter={[48, 48]}>
+        <Row gutter={[24, 24]}>
           {items.map((item) => {
             return (
               <Col xs={24} xl={12}>
@@ -19,7 +19,7 @@ function PortfolioPage() {
                   alt={item.alt}
                   title={item.title}
                   description={item.description}
-                  href={item.href}
+                  hrefFront={item.hrefFront}
                 />
               </Col>
             );
