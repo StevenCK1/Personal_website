@@ -12,6 +12,8 @@ export const items = [
     description:
       "Reconnect is a wellness app that aims to help the users to reconnect with themselves by keeping track of their mood and obtain suggestions on how to improve their well being.",
     techStack: "Tech Stack: Next.js | PWA | JS | CSS | REST API | PostgreSQL",
+    backend: "Backend",
+    app: "App",
   },
   {
     hrefFront: "https://github.com/SchoolOfCode/w9_frontend-project-team-js",
@@ -24,6 +26,8 @@ export const items = [
 
       The general premise of the app is to help students to keep track of their development, by breaking down the topics into individual skills, as well as tools to assist in improving those skills.`,
     techStack: "Tech Stack: React | HTML | JS | CSS | REST API | PostgreSQL",
+    backend: "Backend",
+    app: "App",
   },
   {
     hrefFront: "https://github.com/StevenCK1/Shopping_cart",

@@ -14,6 +14,8 @@ function ProjectCard({
   hrefFront,
   hrefApp,
   techStack,
+  backend,
+  app,
 }) {
   return (
     <Card
@@ -25,10 +27,10 @@ function ProjectCard({
           Frontend
         </Button>,
         <Button href={hrefBack} type="primary" shape="round">
-          Backend
+          {backend}
         </Button>,
         <Button href={hrefApp} type="primary" shape="round">
-          App
+          {app}
         </Button>,
       ]}
     >

@@ -23,6 +23,8 @@ function PortfolioPage() {
                   hrefBack={item.hrefBack}
                   hrefApp={item.hrefApp}
                   techStack={item.techStack}
+                  backend={item.backend}
+                  app={item.app}
                 />
               </Col>
             );
