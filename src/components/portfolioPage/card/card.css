@@ -42,3 +42,7 @@ img[alt~="Reconnect-App"] {
 button[href="null"] {
   display: none;
 }
+
+.ant-card-actions {
+  border-radius: 0 0 15px 15px;
+}

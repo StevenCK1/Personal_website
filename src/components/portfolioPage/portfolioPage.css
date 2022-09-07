@@ -6,7 +6,7 @@
   text-align: center;
   font-size: 30px;
   margin: 2rem;
-  text-decoration: underline;
+  font-weight: 900;
 }
 
 .ant-btn-primary {
@@ -17,4 +17,10 @@
 .ant-btn-primary:hover {
   background-color: rgb(120, 103, 167);
   border-color: rgb(120, 103, 167);
+}
+
+@media (max-width: 480px) {
+  .portfolio-page-container {
+    padding: 1.5rem;
+  }
 }

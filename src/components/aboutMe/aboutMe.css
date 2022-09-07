@@ -4,13 +4,13 @@
 .about-me-page-container h1 {
   font-size: 30px;
   margin: 2vw;
-  text-decoration: underline;
+  font-weight: 900;
 }
 
 .about-me-page-container h2 {
   font-size: 30px;
   margin: 2vw;
-  text-decoration: underline;
+  font-weight: 900;
 }
 
 .about-me-page-container img {
