@@ -26,7 +26,9 @@ function ProjectCard({
   backend,
   app,
   frontend,
-  details,
+  details1,
+  details2,
+  details3,
 }) {
   const [activeTabKey, setActiveTabKey] = useState("Summary");
   const onTabChange = (key) => {
@@ -39,7 +41,7 @@ function ProjectCard({
       <p>{description}</p>,
       <p>{techStack}</p>,
     ],
-    Details: <p>{details}</p>,
+    Details: [<p>{details1}</p>, <p>{details2}</p>, <p>{details3}</p>],
   };
 
   return (

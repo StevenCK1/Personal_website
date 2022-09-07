@@ -26,7 +26,9 @@ function PortfolioPage() {
                   backend={item.backend}
                   app={item.app}
                   frontend={item.frontend}
-                  details={item.details}
+                  details1={item.details1}
+                  details2={item.details2}
+                  details3={item.details3}
                 />
               </Col>
             );
