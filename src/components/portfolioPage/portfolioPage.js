@@ -25,6 +25,7 @@ function PortfolioPage() {
                   techStack={item.techStack}
                   backend={item.backend}
                   app={item.app}
+                  frontend={item.frontend}
                 />
               </Col>
             );

@@ -16,6 +16,7 @@ function ProjectCard({
   techStack,
   backend,
   app,
+  frontend,
 }) {
   return (
     <Card
@@ -24,7 +25,7 @@ function ProjectCard({
       cover={<img alt={alt} src={src} />}
       actions={[
         <Button href={hrefFront} type="primary" shape="round">
-          Frontend
+          {frontend}
         </Button>,
         <Button href={hrefBack} type="primary" shape="round">
           {backend}

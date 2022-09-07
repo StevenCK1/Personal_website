@@ -14,6 +14,7 @@ export const items = [
     techStack: "Tech Stack: Next.js | PWA | JS | CSS | REST API | PostgreSQL",
     backend: "Backend",
     app: "App",
+    frontend: "Frontend",
   },
   {
     hrefFront: "https://github.com/SchoolOfCode/w9_frontend-project-team-js",
@@ -28,6 +29,7 @@ export const items = [
     techStack: "Tech Stack: React | HTML | JS | CSS | REST API | PostgreSQL",
     backend: "Backend",
     app: "App",
+    frontend: "Frontend",
   },
   {
     hrefFront: "https://github.com/StevenCK1/Shopping_cart",
@@ -39,6 +41,7 @@ export const items = [
     description:
       "Built a shopping cart using only vanilla JavaScript, HTML and CSS",
     techStack: "Tech Stack: HTML | JS | CSS",
+    frontend: "Frontend",
   },
 ];
 // backend of backpack
