@@ -12,6 +12,7 @@ export const items = [
     description:
       "Reconnect is a wellness app that aims to help the users to reconnect with themselves by keeping track of their mood and obtain suggestions on how to improve their well being.",
     techStack: "Tech Stack: Next.js | PWA | JS | CSS | REST API | PostgreSQL",
+    details: "another one",
     backend: "Backend",
     app: "App",
     frontend: "Frontend",

@@ -59,3 +59,7 @@ button[href="null"] {
   background: rgb(161, 138, 224);
   pointer-events: none;
 }
+
+.ant-tabs-tab:hover {
+  color: rgb(161, 138, 224);
+}
