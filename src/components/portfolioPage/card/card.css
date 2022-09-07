@@ -1,9 +1,6 @@
 .custom-card {
   border-radius: 15px;
 }
-.custom-card img {
-  border-radius: 15px 15px 0 0;
-}
 
 img[alt~="Reconnect-App"] {
   height: 440px;
@@ -45,4 +42,20 @@ button[href="null"] {
 
 .ant-card-actions {
   border-radius: 0 0 15px 15px;
+}
+
+.card-title {
+  color: black;
+}
+
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: rgb(161, 138, 224);
+  font-weight: bold;
+  text-shadow: 0 0 0.25px currentcolor;
+}
+
+.ant-tabs-ink-bar {
+  position: absolute;
+  background: rgb(161, 138, 224);
+  pointer-events: none;
 }

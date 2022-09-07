@@ -1,8 +1,17 @@
 import { Card, Button } from "antd";
-import React from "react";
+import React, { useState } from "react";
 import "./card.css";
 
-const { Meta } = Card;
+const tabList = [
+  {
+    key: "Summary",
+    tab: "Summary",
+  },
+  {
+    key: "Details",
+    tab: "More details",
+  },
+];
 
 function ProjectCard({
   src,
@@ -17,7 +26,22 @@ function ProjectCard({
   backend,
   app,
   frontend,
+  details,
 }) {
+  const [activeTabKey, setActiveTabKey] = useState("Summary");
+  const onTabChange = (key) => {
+    setActiveTabKey(key);
+  };
+
+  const contentList = {
+    Summary: [
+      <p className="card-title">{title}</p>,
+      <p>{description}</p>,
+      <p>{techStack}</p>,
+    ],
+    Details: <p>{details}</p>,
+  };
+
   return (
     <Card
       hoverable
@@ -34,9 +58,13 @@ function ProjectCard({
           {app}
         </Button>,
       ]}
+      tabList={tabList}
+      activeTabKey={activeTabKey}
+      onTabChange={(key) => {
+        onTabChange(key);
+      }}
     >
-      <Meta key={key} title={title} description={description} />
-      <br /> {techStack}
+      {contentList[activeTabKey]}
     </Card>
   );
 }
