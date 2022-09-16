@@ -38,10 +38,11 @@ function ProjectCard({
   const contentList = {
     Summary: [
       <p className="card-title">{title}</p>,
-      <p>{description}</p>,
-      <p>{techStack}</p>,
+      <p>{details1}</p>,
+      <p>{details2}</p>,
+      <p>{details3}</p>,
     ],
-    Details: [<p>{details1}</p>, <p>{details2}</p>, <p>{details3}</p>],
+    Details: [<p>{description}</p>, <p>{techStack}</p>],
   };
 
   return (

@@ -17,9 +17,9 @@ export const items = [
     details2:
       "I worked across the whole stack and some of my contribution include, creating and styling react components such as barchart and navbar component (created with vanilla JS and CSS), setting up and deploying our API, setting up database, and some basic unit testing on our API routes and end-to-end testing for our frontend.",
 
-    backend: "Backend",
-    app: "App",
-    frontend: "Frontend",
+    backend: "View Backend Code",
+    app: "View Live App",
+    frontend: "View Frontend Code",
   },
   {
     hrefFront: "https://github.com/SchoolOfCode/w9_frontend-project-team-js",
@@ -37,9 +37,9 @@ export const items = [
     details2:
       "I worked across the whole stack and some of my contribution include, creating and styling react components such as collapsible skill card, connecting to our API, setting up API routes and postgreSQL queries, and some basic unit testing on our API routes.",
 
-    backend: "Backend",
-    app: "App",
-    frontend: "Frontend",
+    backend: "View Backend Code",
+    app: "View Live App",
+    frontend: "View Frontend Code",
   },
   {
     hrefFront: "https://github.com/StevenCK1/Shopping_cart",
@@ -55,7 +55,7 @@ export const items = [
       "This is personal frontend project and the main purpose was to learn how to track the user's inputs in order to responsively update the shopping cart feature.",
     details2:
       "Learned various CSS, HTML and JS techniques such as CSS Grid to position components in grid format or class to create object and adding methods to object. The main takeaway is the use of localStorage to store the data and access data across browser sessions. See github repo for more details.",
-    frontend: "Frontend",
+    frontend: "View Frontend Code",
   },
 ];
 // backend of backpack
